@@ -27,6 +27,7 @@ Raspberry Pi is used to establish a communication relationship with Leapmotion t
 #### Leapmotion gesture recognition
 
 1.  The design recognizes 8 gestures: horizontal forward, horizontal backward, horizontal right slide, horizontal left slide, vertical up, vertical down, standstill hover and abort return.
+
 ![Enter image description](ReadmeImg/2-1.png)
 
 2.  Frame data unity: according to the timestamp of the frame, only when the interval between the timestamp of the current frame and the timestamp of the last output action is greater than 100000 microseconds (unit of timestamp), a gesture is output. Realize gesture smoothing, reduce data fluctuation, and cooperate with data communication.
