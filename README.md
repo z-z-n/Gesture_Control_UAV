@@ -1,9 +1,10 @@
 # Gesture_Contro_UAV
 
 ### Video
+```
 HTML
 <video width="320" height="240" controls>
-    <source src="movie.mp4" type="ReadmeImg/2.mp4">
+    <source src="2.mp4" type="ReadmeImg/">
 </video>
 ```
 
