@@ -12,6 +12,10 @@ The drone is powered by lithium battery, and the Raspberry Pi is powered by UBEC
 
 Secondly, the Leapmotion is developed on the PC side, pre-setting the common gestures and designing the corresponding commands through the code. When the human gesture is recognized by Leapmotion, it is pre-processed first, and if the offset from the previous frame is too small, it is not changed. Then compare with the pre-defined gesture, get the next instruction, transfer the instruction from PC to Raspberry Pi by socket communication, and input the instruction into the corresponding program, so as to successfully send the instruction to the UAV flight control. The control program calls the API in the Dronekit library in order to read the parameters of the drone flight and control the flight status of the drone.
 
+#### UAV
+
+![Enter image description](ReadmeImg/4.png)
+
 ### Development environment
 1.  Python2.7 (Leapmotion code for PC)
 2.  Python3 (Raspberry Pi side flight control code)
