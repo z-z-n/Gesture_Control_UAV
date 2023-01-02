@@ -5,7 +5,7 @@
 https://user-images.githubusercontent.com/65029895/210196027-d935f3e6-3679-4644-9bf5-9d3de82730e2.mp4
 
 ### Collaborators
-Thanks to @NameSpaceQAQ, A and B for their joint contribution!
+Thanks to [@NameSpaceQAQ](docs/CONTRIBUTING.md), A and B for their joint contribution!
 
 ### Introduction
 This project provides a leapmotion-based gesture-controlled UAV method and related devices, thus making the remote control end more lightweight and enhancing operability and human-computer interaction, while allowing for the continued development of new command operations with high scalability. This project can solve the problem of low operability and portability of existing UAV control methods, enhance the scalability of UAV control commands, strengthen human-machine interaction, and make it more convenient for UAVs to fly indoors.
