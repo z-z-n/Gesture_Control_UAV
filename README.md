@@ -19,8 +19,8 @@ Secondly, the Leapmotion is developed on the PC side, pre-setting the common ges
 4.  PyQt5
 
 #### File description
-1.  ui_control file is the pc-side code to run and launch the UI interface.
-2.  uav_control_pi file is the code of Raspberry Pi side. You need to start the UAV manually first, and then click the "start running" button on the UI interface after the UAV reaches the set height.
+1.  ui_control.py file is the pc-side code to run and launch the UI interface.
+2.  uav_control_pi.py file is the code of Raspberry Pi side. You need to start the UAV manually first, and then click the "start running" button on the UI interface after the UAV reaches the set height.
 3.  gesture.py file is the gesture recognition and PC communication code, after the UI interface is started, click "start running" to start, it needs PC to connect to Leapmotion.
 
 ### Development process
